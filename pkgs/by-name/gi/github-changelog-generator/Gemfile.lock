@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (8.0.1)
+    activesupport (8.0.5.2)
       base64
       benchmark (>= 0.3)
       bigdecimal
@@ -37,16 +37,16 @@ GEM
       faraday
     async-pool (0.10.3)
       async (>= 1.25)
-    base64 (0.2.0)
-    benchmark (0.4.0)
-    bigdecimal (3.1.9)
-    concurrent-ruby (1.3.5)
-    connection_pool (2.5.0)
+    base64 (0.3.0)
+    benchmark (0.5.0)
+    bigdecimal (4.1.3)
+    concurrent-ruby (1.3.8)
+    connection_pool (3.0.2)
     console (1.30.2)
       fiber-annotation
       fiber-local (~> 1.1)
       json
-    drb (2.2.1)
+    drb (2.2.3)
     faraday (2.12.2)
       faraday-net_http (>= 2.0, < 3.5)
       json
@@ -68,21 +68,24 @@ GEM
       octokit (~> 4.6)
       rainbow (>= 2.2.1)
       rake (>= 10.0)
-    i18n (1.14.7)
+    i18n (1.15.2)
       concurrent-ruby (~> 1.0)
     io-endpoint (0.15.2)
     io-event (1.9.0)
     io-stream (0.6.1)
     json (2.10.1)
-    logger (1.6.6)
+    logger (1.7.0)
     metrics (0.12.2)
-    minitest (5.25.4)
+    minitest (6.1.0)
+      drb (~> 2.0)
+      prism (>= 1.5, < 3)
     multi_json (1.15.0)
     net-http (0.6.0)
       uri
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
+    prism (2.1.0)
     protocol-hpack (1.5.1)
     protocol-http (0.49.0)
     protocol-http1 (0.30.0)
@@ -100,7 +103,7 @@ GEM
     traces (0.15.2)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    uri (1.0.3)
+    uri (1.1.2)
 
 PLATFORMS
   ruby
